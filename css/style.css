@@ -13,3 +13,32 @@ html, body {
     min-height: 100vh;
     background-color: var(--cor-padrao);
 }
+
+main {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 1.5rem;
+    margin: 20px;
+}
+
+section {
+  background-color: aliceblue;
+  border-radius: 7px;
+}
+
+.Img-Left {
+    position: relative;
+
+}
+
+.Img-Left img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.Img-Left h1 {
+    position: absolute;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+}
