@@ -49,6 +49,7 @@ main {
 
 .data, i{
     color: var(--cor-padrao);
+    
 }
 
 ul{
@@ -120,4 +121,10 @@ footer a{
 footer a:hover{
     color: var(--cor-barra);
     border: 2px solid var(--cor-barra);
+}
+
+@media(max-width: 880px) {
+    main {
+        grid-template-columns: 1fr;
+    }
 }
