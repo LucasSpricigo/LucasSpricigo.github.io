@@ -27,6 +27,12 @@ main {
     font-family: "Roboto", sans-serif;
 }
 
+@media(max-width: 880px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
 .Left, .experiencias, .educacao {
   background-color: var(--fundo-secao);
   border-radius: 7px;
@@ -121,10 +127,4 @@ footer a{
 footer a:hover{
     color: var(--cor-barra);
     border: 2px solid var(--cor-barra);
-}
-
-@media(max-width: 880px) {
-    main {
-        grid-template-columns: 1fr;
-    }
 }
