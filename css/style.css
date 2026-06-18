@@ -65,7 +65,7 @@ ul{
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: ;
+    border-radius: 7px;
 }
 
 .Img-Left h1 {
@@ -96,4 +96,28 @@ ul{
 
 .nome-item {
     font-weight: bolder;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor-padrao);
+    padding: 5px;
+    transition: 500ms ease;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+footer a:hover{
+    color: var(--cor-barra);
+    border: 2px solid var(--cor-barra);
 }
